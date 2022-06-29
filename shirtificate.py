@@ -11,7 +11,7 @@ def main():
     pdf.set_font("helvetica", "B", 4)
     pdf.set_text_color(255)
     pdf.cell(-33, 25, f"{name} took CS50", new_x="LMARGIN", new_y="NEXT", align='C')
-    pdf.output("Shirtificate.pdf")
+    pdf.output("shirtificate.pdf")
 
 
 if __name__ == "__main__":
